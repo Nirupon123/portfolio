@@ -6,7 +6,7 @@ const Achievements = () => {
   const achievements = [
     {
       title: "Hack4Bengal 2025",
-      description: "Top 30 out of 2200+ teams",
+      description: "Top 30 out of 2200+ teams in Eastern India",
       icon: Trophy,
       color: "#FFD700"
     },
@@ -18,7 +18,7 @@ const Achievements = () => {
     },
     {
       title: "HexaFalls 2025",
-      description: "First Runner-Up (JIS Group)",
+      description: "First Runner-Up (JIS Narula Group)",
       icon: Medal,
       color: "#C0C0C0"
     },
