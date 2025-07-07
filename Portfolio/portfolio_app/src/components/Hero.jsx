@@ -47,14 +47,19 @@ const Hero = () => {
         </motion.p>
         
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-        >
-          <a href="#" className="cta-button">
-            Download my Resume
-          </a>
-        </motion.div>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.8 }}
+>
+  <a
+    href="https://drive.google.com/file/d/15sz1ufMvX-pffKGEvBQ7oLzqLINZ4W8A/view?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cta-button"
+  >
+    View My Resume
+  </a>
+</motion.div>
       </motion.div>
       
       <motion.div

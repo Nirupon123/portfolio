@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { User, Target, Heart } from 'lucide-react'
+import { User, Target, Heart, CodeIcon } from 'lucide-react'
 
 const About = () => {
   return (
@@ -24,11 +24,11 @@ const About = () => {
       >
         <div className="about-text">
           <p>
-            I'm <strong>Nirupon Pal</strong>, a B.Tech Computer Science student passionate about building AI that empowers everyone—not just the privileged few.
+            I'm <strong>Nirupon Pal</strong>, a B.Tech Computer Science student passionate about building AI and full-stack projects that empowers everyone—not just the privileged few.
           </p>
           
           <p>
-            I specialize in creating AI-powered solutions across multiple sectors with a strong focus on <strong>multilingual access</strong> and <strong>real-world deployments</strong>. My work spans from healthcare diagnostics to agricultural technology, always with the goal of making technology accessible to underserved communities.
+            I specialize in creating AI-powered solutions across multiple sectors with a strong focus on <strong>Impactful Projects</strong> and <strong>real-world deployments</strong>. My work spans from healthcare diagnostics to agricultural technology, always with the goal of making technology accessible to underserved communities.
           </p>
           
           <p>
@@ -43,24 +43,63 @@ const About = () => {
           viewport={{ once: true }}
           style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '1rem', background: 'var(--bg-secondary)', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
-            <User size={24} color="var(--neon-green)" />
+          <div style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '1rem', 
+              padding: '1rem', 
+              background: 'var(--bg-secondary)', 
+              borderRadius: '10px', 
+              border: '1px solid var(--border-color)' 
+              }}>
+           
+            
             <div>
-              <h3 style={{ color: 'var(--neon-green)', marginBottom: '0.5rem' }}>Education</h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-                B.Tech in Computer Science & Engineering (2023–2027)<br />
-                SOA University, Bhubaneswar
+              <h3 style={{ color: 'var(--neon-green)', marginBottom: '0.5rem' , marginLeft:'2.2rem' }}>Education</h3>
+              
+              <p style={{ 
+                color: 'var(--text-secondary)', 
+                fontSize: '0.9rem', 
+                display: 'flex', 
+                alignItems: 'center', 
+                gap: '1rem' ,
+                marginBottom: '1rem'
+              }}>
+                <User size={21} color="var(--neon-green)" />
+                <span>
+                  B.Tech in Computer Science & Engineering (2023–2027)<br />
+                  SOA University, Bhubaneswar
+                </span>
               </p>
+              
+              <p style={{ 
+                color: 'var(--text-secondary)', 
+                fontSize: '0.9rem', 
+                display: 'flex', 
+                alignItems: 'center', 
+                gap: '1rem' 
+              }}>
+                <User size={21} color="var(--neon-green)" />
+                <span>
+                  Higher Secondary (WBCHSE) (2021–2023)<br />
+                  Uttarpara Govt. High School, Uttarpara, West Bengal
+                </span>
+              </p>
+              
             </div>
           </div>
+
           
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '1rem', background: 'var(--bg-secondary)', borderRadius: '10px', border: '1px solid var(--border-color)' }}>
-            <Target size={24} color="var(--neon-green)" />
+            <CodeIcon size={125} color="var(--neon-green)" />
             <div>
-              <h3 style={{ color: 'var(--neon-green)', marginBottom: '0.5rem' }}>Mission</h3>
+              <h3 style={{ color: 'var(--neon-green)', marginBottom: '0.5rem' }}>Hobbies</h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-                "AI for the underserved. AI with impact."<br />
-                Building technology that creates meaningful change
+              I love solving problems—whether it's through writing clean,
+               efficient code or finding practical solutions in real-life situations. 
+               Apart from tech, I’m passionate about football, which keeps me active and 
+               competitive. I also have a creative side and enjoy expressing myself through
+                fine arts, where I find both relaxation and inspiration.
               </p>
             </div>
           </div>
