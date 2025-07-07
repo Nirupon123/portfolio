@@ -52,7 +52,7 @@ const Hero = () => {
   transition={{ duration: 0.8, delay: 0.8 }}
 >
   <a
-    href="https://drive.google.com/file/d/15sz1ufMvX-pffKGEvBQ7oLzqLINZ4W8A/view?usp=drive_link"
+    href="https://drive.google.com/file/d/15sz1ufMvX-pffKGEvBQ7oLzqLINZ4W8A/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="cta-button"
